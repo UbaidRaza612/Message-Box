@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 400px;
+  width: 600px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+#progressBar {
+  width: 80%;
+  border: none;
+}
+#progress {
+  width: 0;
+  height: 7px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.msg{
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
